@@ -2,5 +2,6 @@
   (:gen-class))
 
 (defn -main
+  "what i do"
   [& args]
   (println "Hello, World!"))
