@@ -23,5 +23,6 @@
   (let [target-language (first args)
         text (clojure.string/join " " (rest args))]
     (translate-text target-language text)))
-;add another condition that checks if lang is in list
+;add a condition that checks if lang is in list
 ;add exception handling
+;;what about different alphabet characters?
